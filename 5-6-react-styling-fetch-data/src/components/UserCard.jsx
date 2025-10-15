@@ -18,6 +18,8 @@ function UserCard({ user, onUserClick }) {
           <strong>Phone:</strong> {user.phone}
         </Card.Text>
       {/* Buttotn*/}
+      variant="primary"
+      onClick={() => onUserClick(user)}
       
       </Card.Body>
     </Card>
